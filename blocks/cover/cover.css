@@ -1,0 +1,6 @@
+.cover {
+  width: 100vw;
+  min-width: 320px;
+  max-width: 1184px;
+  margin: 0 auto;
+}

@@ -1,26 +1,26 @@
 @import url(vendor/normalize.css);
 @import url(vendor/fonts.css);
-
 @import url(blocks/page/page.css);
-
 /* Блок container для обертки всех секций */
-@import url(blocks/container/container.css);
-@import url(blocks/container/_width/container_width_sm-100.css);
-@import url(blocks/container/_width/container_width_lg-90.css);
 
+@import url(blocks/container/container.css);
 /* Блок stack для многослойных элементов lead & cover */
+
 @import url(blocks/stack/stack.css);
 @import url(blocks/stack/__item/stack__item.css);
-@import url(blocks/stack/__item/_back/stack__item_back.css);
-@import url(blocks/stack/__item/_front/stack__item_front.css);
 @import url(blocks/stack/__item/_longway/stack__item_longway.css);
-
 /* Блок lead */
+
 @import url(blocks/lead/lead.css);
 @import url(blocks/lead/__title/lead__title.css);
 @import url(blocks/lead/__subtitle/lead__subtitle.css);
 @import url(blocks/lead/__image/lead__image.css);
 @import url(blocks/lead/__caption/lead__caption.css);
+/* Блок cover */
+
+@import url(blocks/cover/cover.css);
+@import url(blocks/cover/__title/cover__title.css);
+@import url(blocks/cover/__subtitle/cover__subtitles.css);
 * {
   /* border: 0.2px solid red; */
 }
@@ -29,16 +29,13 @@
 
 .content {}
 
-
-
-
-
 .intro {}
 
 .photo-grid {}
 
 .places {}
 
-.cover {}
 
-.footer {}
+
+
+

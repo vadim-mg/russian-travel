@@ -1,0 +1,15 @@
+.covet__subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  width: 276px;
+  margin: 32px auto 0;
+}
+
+@media screen and (min-width:768px) {
+  .covet__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 32px;
+    width: 360px;
+  }
+}
