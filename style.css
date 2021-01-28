@@ -9,6 +9,13 @@
 @import url(blocks/stack/stack.css);
 @import url(blocks/stack/__item/stack__item.css);
 @import url(blocks/stack/__item/_longway/stack__item_longway.css);
+/* Блок Header */
+
+@import url(blocks/header/header.css);
+@import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__lang-links/header__lang-links.css);
+@import url(blocks/header/__lang-link/header__lang-link.css);
+@import url(blocks/header/__lang-link_selected/header__lang-link_selected.css);
 /* Блок lead */
 
 @import url(blocks/lead/lead.css);
@@ -25,8 +32,6 @@
   /* border: 0.2px solid red; */
 }
 
-.header {}
-
 .content {}
 
 .intro {}
@@ -34,8 +39,3 @@
 .photo-grid {}
 
 .places {}
-
-
-
-
-
