@@ -1,0 +1,6 @@
+@media screen and (max-width:1024px) {
+  .container_width_sm-100 {
+    width: 100vw;
+    left: 0;
+  }
+}
