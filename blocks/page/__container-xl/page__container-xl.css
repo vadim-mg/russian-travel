@@ -1,0 +1,9 @@
+.page__container-xl {
+  width: 100vw;
+  min-width: 300px;
+  max-width: 1184px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+

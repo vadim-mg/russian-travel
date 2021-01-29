@@ -3,7 +3,9 @@
 @import url(blocks/page/page.css);
 /* Блок container для обертки всех секций */
 
-@import url(blocks/container/container.css);
+@import url(blocks/page/__container/page__container.css);
+@import url(blocks/page/__container-xl/page__container-xl.css);
+@import url(blocks/page/__container/_width/page__container_width_xl-on-wide-screen.css);
 /* Блок stack для многослойных элементов lead & cover */
 
 @import url(blocks/stack/stack.css);

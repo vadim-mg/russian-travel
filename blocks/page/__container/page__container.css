@@ -1,0 +1,26 @@
+.page__container {
+  box-sizing: border-box;
+  width: 90%;
+  min-width: 300px;
+  max-width: 984px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+@media screen and (min-width:576px) {
+  .page__container {
+    width: 94%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .page__container {
+    width: 91%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .page__container {
+    width: 77%;
+  }
+}

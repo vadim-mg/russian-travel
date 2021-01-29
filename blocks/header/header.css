@@ -1,7 +1,20 @@
 .header {
   display: flex;
   justify-content: space-between;
-  height: 42px;
-  margin-top: 16px;
-  margin-bottom: 48px;
+  height: 106px;
+  padding-top:16px;
 }
+
+@media screen and (min-width:576px) {
+  .header {
+    height: 128px;
+    padding-top: 28px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .header {
+    height: 136px;
+  }
+}
+
