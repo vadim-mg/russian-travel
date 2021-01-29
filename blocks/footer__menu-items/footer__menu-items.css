@@ -1,0 +1,14 @@
+.footer__menu-items {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 16px;
+}
+
+@media screen and (min-width:576px) {
+  .footer__menu-items {
+    flex-direction: row;
+    padding: 0;
+  }
+}

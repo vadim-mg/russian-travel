@@ -30,6 +30,14 @@
 @import url(blocks/cover/cover.css);
 @import url(blocks/cover/__title/cover__title.css);
 @import url(blocks/cover/__subtitle/cover__subtitles.css);
+/* footer */
+
+@import url(blocks/footer/footer.css);
+@import url(blocks/footer__menu/footer__menu.css);
+@import url(blocks/footer__menu-items/footer__menu-items.css);
+@import url(blocks/footer__menu-item/footer__menu-item.css);
+@import url(blocks/footer__link/footer__link.css);
+@import url(blocks/footer__copyright/footer__copyright.css);
 * {
   /* border: 0.2px solid red; */
 }

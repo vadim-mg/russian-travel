@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 0 24px;
+}
+
+@media screen and (min-width:576px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .footer {
+    padding-top: 92px;
+  }
+}
