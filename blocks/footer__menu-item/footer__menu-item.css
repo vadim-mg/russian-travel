@@ -1,0 +1,10 @@
+.footer__menu-item {
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width:576px) {
+  .footer__menu-item {
+    padding-bottom: 0;
+    padding-right: 18px;
+  }
+}
