@@ -1,4 +1,6 @@
 .stack {
   display: grid;
   grid-template-columns: 100%;
+  align-items: stretch;
+  text-decoration: none;
 }

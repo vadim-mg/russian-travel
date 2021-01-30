@@ -2,6 +2,16 @@
   width: 100%;
   grid-row: 1/2;
   grid-column: 1/2;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+}
+
+.stack__item:first-child {
+  z-index: 0;
+}
+
+.stack__item:last-child {
+  z-index: 2;
 }

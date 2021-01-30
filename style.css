@@ -30,6 +30,9 @@
 @import url(blocks/cover/cover.css);
 @import url(blocks/cover/__title/cover__title.css);
 @import url(blocks/cover/__subtitle/cover__subtitles.css);
+
+@import url(blocks/overlay/overlay.css);
+
 /* footer */
 
 @import url(blocks/footer/footer.css);
@@ -41,6 +44,8 @@
 * {
   /* border: 0.2px solid red; */
 }
+
+
 
 .content {}
 
