@@ -1,0 +1,26 @@
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .photo-grid {
+    gap: 16px;
+  }
+}
