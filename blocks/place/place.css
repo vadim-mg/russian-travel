@@ -1,0 +1,28 @@
+.place {
+  padding-bottom: 50px;
+}
+.place:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (min-width:576px) {
+  .place {
+    display: grid;
+    grid-template-columns: 47.2% auto;
+    gap: 28px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .place {
+    gap: 32px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .place {
+    gap: 40px;
+  }
+}

@@ -26,6 +26,11 @@
 @import url(blocks/header/__lang-link_selected/header__lang-link_selected.css);
 /*  */
 
+/* Блок content */
+
+@import url(blocks/content/content.css);
+/*  */
+
 /* Блок lead */
 
 @import url(blocks/lead/lead.css);
@@ -70,12 +75,20 @@
 
 @import url(blocks/photo-grid/photo-grid.css);
 @import url(blocks/photo-grid/__item/photo-grid__item.css);
+/*  */
+
+/* Блок places */
+
+@import url(blocks/places/places.css);
+@import url(blocks/place/place.css);
+@import url(blocks/place/__title/place__title.css);
+@import url(blocks/place/__website/place__website.css);
+@import url(blocks/place/__url-heading/place__url-heading.css);
+@import url(blocks/place/__link/place__link.css);
+@import url(blocks/place/__image/place__image.css);
+@import url(blocks/place/__text/place__text.css);
+@import url(blocks/place/__paragraph/place__paragraph.css);
 * {
   /* border: 0.2px solid red; */
 }
-
-.places {}
-
-.content {}
-
 

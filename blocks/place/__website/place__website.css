@@ -1,0 +1,11 @@
+.place__website {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width:576px) {
+  .place__website {
+    margin: 0;
+    align-self: flex-end;
+  }
+}
+
