@@ -21,6 +21,7 @@
 
 @import url(blocks/header/header.css);
 @import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__link/header__link.css);
 @import url(blocks/header/__lang-links/header__lang-links.css);
 @import url(blocks/header/__lang-link/header__lang-link.css);
 @import url(blocks/header/__lang-link_selected/header__lang-link_selected.css);
@@ -50,18 +51,6 @@
 /* блок overlay */
 
 @import url(blocks/overlay/overlay.css);
-/*  */
-
-/* footer */
-
-@import url(blocks/footer/footer.css);
-@import url(blocks/footer__menu/footer__menu.css);
-@import url(blocks/footer__menu-items/footer__menu-items.css);
-@import url(blocks/footer__menu-item/footer__menu-item.css);
-@import url(blocks/footer__link/footer__link.css);
-@import url(blocks/footer__copyright/footer__copyright.css);
-/*  */
-
 /* Блок Intro */
 
 @import url(blocks/intro/intro.css);
@@ -88,7 +77,14 @@
 @import url(blocks/place/__image/place__image.css);
 @import url(blocks/place/__text/place__text.css);
 @import url(blocks/place/__paragraph/place__paragraph.css);
-* {
-  /* border: 0.2px solid red; */
-}
+/*  */
 
+/* footer */
+
+@import url(blocks/footer/footer.css);
+@import url(blocks/footer/__menu/footer__menu.css);
+@import url(blocks/footer/__menu-items/footer__menu-items.css);
+@import url(blocks/footer/__menu-item/footer__menu-item.css);
+@import url(blocks/footer/__link/footer__link.css);
+@import url(blocks/footer/__copyright/footer__copyright.css);
+/*  */

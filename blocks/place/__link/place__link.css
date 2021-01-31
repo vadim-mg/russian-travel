@@ -2,7 +2,9 @@
   color: #ffffff;
   font-size: 18px;
   line-height: 1.22;
+  text-underline-offset: 3px;
 }
+
 .place__link:hover {
   opacity: 0.8;
 }

@@ -2,7 +2,7 @@
   width: 100vw;
   box-sizing: border-box;
   margin-left: calc((100vw - 100%) / -2);
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width:576px) {

@@ -6,6 +6,12 @@
   .place__website {
     margin: 0;
     align-self: flex-end;
+    padding-bottom: 3px;
   }
 }
 
+@media screen and (min-width:992px) {
+  .place__website {
+    padding-bottom: 1px;
+  }
+}

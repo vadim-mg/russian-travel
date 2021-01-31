@@ -1,4 +1,4 @@
-.cover_title {
+.cover__title {
   color: #ffffff;
   font-weight: 900;
   font-size: 32px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (min-width:768px) {
-  .cover_title {
+  .cover__title {
     font-size: 72px;
     line-height: 76px;
     width: 560px;

@@ -3,5 +3,8 @@
   background-color: #2A2C2F;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   min-width: 300px;
+  word-break: break-word;
 }

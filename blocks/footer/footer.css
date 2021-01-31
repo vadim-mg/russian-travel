@@ -8,6 +8,7 @@
   .footer {
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
     padding-top: 88px;
   }
 }
