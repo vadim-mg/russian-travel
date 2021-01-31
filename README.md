@@ -19,4 +19,5 @@
 
 **Ссылка**
 
-[Ссылка на github](https://github.com/vadim-mg/russian-travel "russian-travel!")
+[Ссылка на github](https://vadim-mg.github.io/russian-travel/ "russian-travel!")
+
