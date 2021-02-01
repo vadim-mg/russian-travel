@@ -2,6 +2,7 @@
   margin: 0 0 40px;
   font-size: 32px;
   line-height: 1.09;
+  font-weight: 900;
 }
 
 @media screen and (min-width:576px) {

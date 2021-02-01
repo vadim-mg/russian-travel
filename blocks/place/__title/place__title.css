@@ -1,6 +1,7 @@
 .place__title {
   font-size: 32px;
   line-height: 1.09;
+  font-weight: 900;
   margin: 0;
   padding-bottom: 32px;
   align-self: flex-end;
