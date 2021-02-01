@@ -1,5 +1,5 @@
 .page__container-xl {
-  width: 100vw;
+  width: 100%;
   min-width: 300px;
   max-width: 1184px;
   margin: 0 auto;

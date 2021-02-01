@@ -8,3 +8,9 @@
   min-width: 300px;
   word-break: break-word;
 }
+
+@media screen and (min-width:300px) {
+  .page {
+    overflow-x: hidden;
+  }
+}
