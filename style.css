@@ -6,15 +6,7 @@
 /* Блок container для обертки всех секций */
 
 @import url(blocks/page/__container/page__container.css);
-@import url(blocks/page/__container-xl/page__container-xl.css);
 @import url(blocks/page/__container/_width/page__container_width_xl-on-wide-screen.css);
-/*  */
-
-/* Блок stack для многослойных элементов lead & cover */
-
-@import url(blocks/stack/stack.css);
-@import url(blocks/stack/__item/stack__item.css);
-@import url(blocks/stack/__item/_longway/stack__item_longway.css);
 /*  */
 
 /* Блок Header */
@@ -24,7 +16,7 @@
 @import url(blocks/header/__link/header__link.css);
 @import url(blocks/header/__lang-links/header__lang-links.css);
 @import url(blocks/header/__lang-link/header__lang-link.css);
-@import url(blocks/header/__lang-link_selected/header__lang-link_selected.css);
+@import url(blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 /*  */
 
 /* Блок content */
@@ -37,6 +29,7 @@
 @import url(blocks/lead/lead.css);
 @import url(blocks/lead/__title/lead__title.css);
 @import url(blocks/lead/__subtitle/lead__subtitle.css);
+@import url(blocks/lead/__picture/lead__picture.css);
 @import url(blocks/lead/__image/lead__image.css);
 @import url(blocks/lead/__caption/lead__caption.css);
 /*  */
@@ -44,6 +37,9 @@
 /* Блок cover */
 
 @import url(blocks/cover/cover.css);
+@import url(blocks/cover/__link/cover__link.css);
+@import url(blocks/cover/__image/cover__image.css);
+@import url(blocks/cover/__overlay/cover__overlay.css);
 @import url(blocks/cover/__title/cover__title.css);
 @import url(blocks/cover/__subtitle/cover__subtitles.css);
 /*  */

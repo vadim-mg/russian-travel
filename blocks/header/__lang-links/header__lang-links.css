@@ -1,9 +1,9 @@
 .header__lang-links {
-  padding-top: 14px;
+  margin-top: 14px;
 }
 
 @media screen and (min-width:576px) {
   .header__lang-links {
-    padding-top: 17px;
+    margin-top: 17px;
   }
 }
