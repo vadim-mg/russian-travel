@@ -7,15 +7,10 @@
 
 @media screen and (min-width:576px) {
   .photo-grid {
-    gap: 16px;
+    gap: 15px;
   }
 }
 
-@media screen and (min-width:992px) {
-  .photo-grid {
-    gap: 14px;
-  }
-}
 
 @media screen and (min-width:1200px) {
   .photo-grid {

@@ -1,12 +1,12 @@
 .place__website {
+  align-self: flex-end;
   margin-bottom: 32px;
 }
 
 @media screen and (min-width:576px) {
   .place__website {
     margin: 0;
-    align-self: flex-end;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
   }
 }
 

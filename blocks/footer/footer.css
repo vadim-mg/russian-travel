@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  padding: 64px 0 24px;
+  padding: 65px 0 24px;
   word-break: normal;
 }
 

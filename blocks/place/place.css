@@ -10,8 +10,8 @@
   .place {
     display: grid;
     grid-template-columns: 47.2% auto;
-    gap: 46px 28px;
-    padding-bottom: 73px;
+    gap: 45px 28px;
+    padding-bottom: 71px;
   }
 }
 
