@@ -2,19 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  min-height: 106px;
-  padding-top: 16px;
+  padding: 16px 0 45px;
 }
 
 @media screen and (min-width:576px) {
   .header {
     min-height: 128px;
-    padding-top: 28px;
+    padding: 28px 0 46px;
   }
 }
 
 @media screen and (min-width:1200px) {
   .header {
-    min-height: 136px;
+    padding: 28px 0 54px;
   }
 }
