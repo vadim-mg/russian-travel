@@ -1,0 +1,9 @@
+.video {
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width:576px) {
+  .video{
+    padding-bottom: 102px;
+  }
+}

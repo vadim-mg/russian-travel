@@ -1,0 +1,21 @@
+.video__item {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content;
+}
+
+.video__item:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+@media screen and (min-width:576px) {
+  .video__item {
+    width: calc(50% - 18px / 2);
+  }
+}
