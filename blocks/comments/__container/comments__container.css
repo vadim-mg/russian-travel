@@ -1,0 +1,19 @@
+.comments__container {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width:992px) {
+  .comments__container {
+    max-width: 100%;
+    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 18px;
+  }
+}

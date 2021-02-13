@@ -1,0 +1,13 @@
+.comment__image {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  margin: 0 auto 17px;
+}
+
+@media screen and (min-width:992px) {
+  .comment__image {
+    margin: 0;
+    align-self: flex-start;
+  }
+}

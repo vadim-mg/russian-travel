@@ -95,6 +95,20 @@
 @import url(../blocks/video/__overlay/video__overlay.css);
 /*  */
 
+/* comments */
+
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__container/comments__container.css);
+/*  */
+
+/* comment */
+
+@import url(../blocks/comment/comment.css);
+@import url(../blocks/comment/__image/comment__image.css);
+@import url(../blocks/comment/__author/comment__author.css);
+@import url(../blocks/comment/__quote/comment__quote.css);
+/*  */
+
 /* footer */
 
 @import url(../blocks/footer/footer.css);
