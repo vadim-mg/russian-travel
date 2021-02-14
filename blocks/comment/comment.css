@@ -1,0 +1,12 @@
+.comment {
+  max-width: 382px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width:992px) {
+  .comment {
+    max-width: calc(100% / 3 - 12px);
+  }
+}

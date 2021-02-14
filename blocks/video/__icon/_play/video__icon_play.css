@@ -1,0 +1,12 @@
+.video__icon_play {
+  width: 41px;
+  height: 41px;
+  background: url(../../../../images/video/__icon_play.svg);
+  flex-grow: 1;
+  background-repeat: no-repeat;
+}
+
+.video__icon_play:hover {
+  opacity: 0.3;
+  transition: 0.5s;
+}

@@ -1,0 +1,13 @@
+.video__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (min-width:576px) {
+  .video__container {
+    gap: 18px;
+  }
+}

@@ -1,0 +1,17 @@
+.content-subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  max-width: 640px;
+}
+
+@media screen and (min-width:576px) {
+  .content-subtitle {
+    font-size: 24px;
+    line-height: 35px;
+    padding-bottom: 56px;
+  }
+}
